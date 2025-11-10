@@ -1,5 +1,5 @@
 {
-  "name": "vue-component-template",
+  "name": "quick-landing-page",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -27,12 +27,12 @@
     "*.json",
     "*.js"
   ],
-  "main": "./dist/vue-component-template.umd.cjs",
-  "module": "./dist/vue-component-template.js",
+  "main": "./dist/quick-landing-page.umd.cjs",
+  "module": "./dist/quick-landing-page.js",
   "exports": {
     ".": {
-      "import": "./dist/vue-component-template.js",
-      "require": "./dist/vue-component-template.umd.cjs"
+      "import": "./dist/quick-landing-page.js",
+      "require": "./dist/quick-landing-page.umd.cjs"
     },
     "./dist/style.css": "./dist/style.css"
   },
@@ -45,7 +45,6 @@
     "@vuese/markdown-render": "^2.11.3",
     "chokidar": "^3.6.0",
     "concurrently": "^8.2.2",
-    "cypress": "^13.11.0",
     "eslint": "^9.4.0",
     "eslint-plugin-vue": "^9.26.0",
     "sass": "^1.77.4",
